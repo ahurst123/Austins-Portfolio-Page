@@ -1,6 +1,12 @@
+
 .maintext{
     background-color: mediumaquamarine;
-    color: whitesmoke;
+    color: rgb(24, 24, 34);
+    border-radius: 100px;
+    text-align:center;
+}
+.navigation{
+    
 }
 #projects{
     background-color:blueviolet;
@@ -9,4 +15,5 @@
 .coding-imgs {
     padding: 35px;
     border: 1px solid white;
+    border-radius: 50px;
 }
