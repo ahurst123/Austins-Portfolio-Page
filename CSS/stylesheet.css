@@ -78,17 +78,25 @@ header{
 }
 html{
     scroll-behavior: smooth;
+    background-image: url("https://i.pinimg.com/originals/55/74/54/557454f9d762c6b6c9efdaec66b4dbb9.jpg");
+    background-color: aliceblue;
 }
+
 .coding-imgs img:hover{
     opacity: .5;
     transition: .5s;
 }
 .finalflexproperty{
-    flex: 2 0 1000px;
+    flex: 10 1 300px;
     padding: 10px;
     text-align: center;
 }
 h3{
     text-align: center;
     font-size: 40px;
+}
+.firstflexproperty{
+    flex: 20 5 4000px;
+    padding: 10px;
+    text-align: center;
 }
