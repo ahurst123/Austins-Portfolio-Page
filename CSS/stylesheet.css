@@ -1,6 +1,5 @@
 
 .maintext{
-    top: 100px;
     background-color: mediumaquamarine;
     color: rgb(24, 24, 34);
     border-radius: 50px;
@@ -46,7 +45,7 @@ body {
 img{max-width: 50%;
 max-height:50%;}
 footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -54,7 +53,7 @@ footer{
     text-align: center;
 }
 header{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width:100%;
