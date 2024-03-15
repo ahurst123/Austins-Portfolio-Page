@@ -64,3 +64,7 @@ header{
 html{
     scroll-behavior: smooth;
 }
+img:hover{
+    opacity: .5;
+    transition: .5s;
+}
