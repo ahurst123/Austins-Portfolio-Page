@@ -35,6 +35,7 @@ li {
     border-style: groove;
 }
 .TopofPage{
+    text-align: center;
     color: aquamarine;
     background-color: blue;
     border-radius: 5%;
@@ -48,4 +49,14 @@ a:hover{
 body {
     font-size:large;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{max-width: 50%;
+max-height:50%;}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
 }
