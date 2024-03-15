@@ -11,19 +11,41 @@ ul {
     padding: 0;
 }
 li {
+    
     display: inline-block;
     margin-right:20px;
 }
-#projects{
-    background-color:blueviolet;
-    color: wheat
+.codeProjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    width: 75%;
+    height: fit-content 60%;
+    margin: 0 auto;
+    border-style: dashed;
+    border-width: 5px;
 }
 .coding-imgs {
-    padding: 35px;
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border-style: groove;
 }
 .TopofPage{
-    text-decoration-color: aquamarine;
+    color: aquamarine;
     background-color: blue;
+    border-radius: 5%;
+}
+a:link{
+    color: aquamarine;
+}
+a:hover{
+    color:palevioletred;
+}
+body {
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
